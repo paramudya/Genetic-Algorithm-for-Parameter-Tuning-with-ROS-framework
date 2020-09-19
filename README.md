@@ -1,0 +1,2 @@
+# Genetic-Algorithm-for-Parameter-Tuning-with-ROS-framework
+Implementation of Genetic Algorithm written in Python for an optimization problem in picking the parameters' (may it be kappa, P, or Q) value used in UKF algorithm.  The fitness is evaluated by playing back the sensor data that has been saved into a rosbag file and running the UKF algorithm over the simulated situation of the sensor data. The fitness function is RMSE of the position estimation of the object to the linearization of the GNSS data.
